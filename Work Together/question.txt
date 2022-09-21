@@ -1,0 +1,56 @@
+Work Together Ended
+Description
+
+Sachin and Ankush are playing a game together. This game has n levels.
+
+They both want to pass the whole game and become the champions.
+
+Sachin can only pass p levels of the game and Ankush can only pass q levels of the game. You are given the indexes of the levels they can pass.
+
+If they work together and optimally, can they pass the whole game?
+
+
+Input
+Input Format
+The first line of each testcase contains three integers n,p and q - the total levels the game, the number of levels Sachin can pass and the number of levels Ankush can pass.
+
+The second line of each testcase contains p space-separated integers a1,a2...ap - the indexes of the levels Sachin can pass.
+
+The third line of each testcase contains q space-separated integers b1,b2...bq - the indexes of the levels Ankush can pass.
+
+Constraints
+1 <=n<= 100
+
+1 <=p,q<= n
+
+1 <=ai,bj<= n
+
+
+Output
+Output Format
+Output a single line - Winner if they are able to pass the whole game or Loser if they cannot.
+
+
+Sample Input 1 
+
+4 3 2
+1 2 3
+2 4
+Sample Output 1
+
+Winner
+Sample Input 2 
+
+4 3 2
+1 2 3
+2 3
+Sample Output 2
+
+Loser
+Hint
+
+First testcase
+In the first sample, Sachin can pass levels [1 2 3], and Ankush can pass level [2 4], so they can pass all the levels both.
+
+Second testcase
+In the second sample, no one can pass level 4
